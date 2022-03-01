@@ -13,10 +13,10 @@ function verifica_grado($nota){
     if ($nota>=60 ) {
         print "Primera Divisió";
     }
-    if ($nota>=45 & $nota<=59 ) {
+    if ($nota>=45 && $nota<=59 ) {
         print "Segona Divisió";
     } 
-    if ($nota>=33 & $nota<=44 ) {
+    if ($nota>=33 && $nota<=44 ) {
         print "Tercera Divisió";
     } 
     if ($nota<=33){
@@ -25,5 +25,5 @@ function verifica_grado($nota){
 
 }
 
-verifica_grado(99)
+verifica_grado(40)
 ?>
